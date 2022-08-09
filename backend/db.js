@@ -1,6 +1,6 @@
 const mongoose=require('mongoose'); //mongoose module
 // connection string
-const mongoURI="mongodb://localhost:27017/inotebook?readPreference=primary&appname=MongoDB%20Compass&ssl=false"
+const mongoURI='mongodb://mernsmsystem:o15Da0w2N7L6fDyGVGNfE9NDhv5a1ODzEFqKLYGpdhpzBkMyN1npFUbWfLytqUP2Lg3QUPgn7QcY36Cc4mBo6g==@mernsmsystem.mongo.cosmos.azure.com:10255/mern-smsystem?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@mernsmsystem@'
 
 // this function  is used to connect to the mongodb compass
 const connectToMongo=()=>{
